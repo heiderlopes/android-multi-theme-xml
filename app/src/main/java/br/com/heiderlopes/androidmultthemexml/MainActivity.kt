@@ -1,10 +1,13 @@
 package br.com.heiderlopes.androidmultthemexml
 
+import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
+import android.content.res.Resources
 import android.content.res.TypedArray
 import android.graphics.Color
 import android.os.Bundle
+import android.util.TypedValue
 import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
@@ -28,7 +31,8 @@ class MainActivity : AppCompatActivity() {
             )
         }
 
-        setColor()
+        tvHello.setTextColor(getColorByThemeAttr(this, R.attr.primaryTextColor, R.color.colorOnPrimary))
+        //setColor()
     }
 
     private fun setColor() {
@@ -42,5 +46,12 @@ class MainActivity : AppCompatActivity() {
         } catch (e: PackageManager.NameNotFoundException) {
             e.printStackTrace()
         }
+    }
+
+    private fun getColorByThemeAttr(context: Context, attr: Int, defaultColor: Int): Int {
+        val typedValue = TypedValue()
+        val theme: Resources.Theme = context.theme
+        val got: Boolean = theme.resolveAttribute(attr, typedValue, true)
+        return if (got) typedValue.data else defaultColor
     }
 }
