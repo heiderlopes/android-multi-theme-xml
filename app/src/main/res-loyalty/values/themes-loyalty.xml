@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.AndroidMultThemeXML.Loyalty" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary_loyalty</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant_loyalty</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary_loyalty</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorSecondary_loyalty</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant_loyalty</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary_loyalty</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+        <item name="primaryTextColor">@color/colorSecondaryVariant_loyalty</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
