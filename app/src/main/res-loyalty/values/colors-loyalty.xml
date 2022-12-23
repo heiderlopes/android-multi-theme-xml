@@ -1,9 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary_loyalty">#F44336</color>
-    <color name="colorPrimaryVariant_loyalty">#FF5722</color>
-    <color name="colorOnPrimary_loyalty">#00BCD4</color>
-    <color name="colorSecondary_loyalty">#FFEB3B</color>
-    <color name="colorSecondaryVariant_loyalty">#CDDC39</color>
-    <color name="colorOnSecondary_loyalty">#FF000000</color>
+    <!-- Primary Colors -->
+    <color name="primary_loyalty">#675CAA</color>
+    <color name="primary_100_loyalty">#ECECF5</color>
+    <color name="primary_300_loyalty">#AFAFD6</color>
+    <color name="primary_700_loyalty">#574994</color>
+    <color name="primary_900_loyalty">#422E70</color>
+
+    <!-- Secondary Colors -->
+    <color name="secondary_loyalty">#E40D5B</color>
+    <color name="secondary_100_loyalty">#FCE3EB</color>
+    <color name="secondary_300_loyalty">#ED5D8C</color>
+    <color name="secondary_700_loyalty">#BE0755</color>
+    <color name="secondary_900_loyalty">#850049</color>
+
+    <!-- Neutral Colors -->
+    <color name="neutral_100_loyalty">#FFFFFF</color>
+    <color name="neutral_300_loyalty">#F2F2F2</color>
+    <color name="neutral_500_loyalty">#C7C7C7</color>
+    <color name="neutral_700_loyalty">#737373</color>
+    <color name="neutral_900_loyalty">#1C1C1C</color>
+
+    <!-- Feedback Colors -->
+    <color name="positive_300_loyalty">#5CE59D</color>
+    <color name="positive_700_loyalty">#00401E</color>
+    <color name="warning_300_loyalty">#FFEFD6</color>
+    <color name="warning_700_loyalty">#B84E07</color>
+    <color name="negative_300_loyalty">#FF9595</color>
+    <color name="negative_700_loyalty">#8C0E0E</color>
+
+    <!-- Support Colors -->
+    <color name="support_01_loyalty">#2962FF</color>
+    <color name="support_02_loyalty">#FFFFFF</color>
+    <color name="support_03_loyalty">#FCE3EB</color>
 </resources>
