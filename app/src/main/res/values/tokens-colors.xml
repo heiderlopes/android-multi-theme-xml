@@ -1,7 +1,31 @@
 <resources>
-    <attr name="primaryTextColor" format="reference"/>
-    <attr name="buttonNormalColor" format="reference"/>
-    <attr name="buttonHighlightColor" format="reference" />
-    <attr name="buttonTextColor" format="reference" />
-    <attr name="primaryButtonTheme" format="reference" />
+    <!-- TODO Testar o format como "color" (talvez possa acessar direto pela classe R) -->
+    <attr name="primary" format="reference" />
+    <attr name="primary_100" format="reference" />
+    <attr name="primary_300" format="reference" />
+    <attr name="primary_700" format="reference" />
+    <attr name="primary_900" format="reference" />
+
+    <attr name="secondary" format="reference" />
+    <attr name="secondary_100" format="reference" />
+    <attr name="secondary_300" format="reference" />
+    <attr name="secondary_700" format="reference" />
+    <attr name="secondary_900" format="reference" />
+
+    <attr name="neutral_100" format="reference" />
+    <attr name="neutral_300" format="reference" />
+    <attr name="neutral_500" format="reference" />
+    <attr name="neutral_700" format="reference" />
+    <attr name="neutral_900" format="reference" />
+
+    <attr name="positive_300" format="reference" />
+    <attr name="positive_700" format="reference" />
+    <attr name="warning_300" format="reference" />
+    <attr name="warning_700" format="reference" />
+    <attr name="negative_300" format="reference" />
+    <attr name="negative_700" format="reference" />
+
+    <attr name="support_01" format="reference" />
+    <attr name="support_02" format="reference" />
+    <attr name="support_03" format="reference" />
 </resources>
