@@ -3,19 +3,44 @@
     <style name="Theme.AndroidMultThemeXML.Loyalty" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
 
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/colorPrimary_loyalty</item>
-        <item name="colorPrimaryVariant">@color/colorPrimaryVariant_loyalty</item>
-        <item name="colorOnPrimary">@color/colorOnPrimary_loyalty</item>
+        <item name="colorPrimary">@color/primary_loyalty</item>
+        <item name="colorPrimaryVariant">@color/primary_700_loyalty</item>
+        <item name="colorOnPrimary">@color/primary_100_loyalty</item>
 
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/colorSecondary_loyalty</item>
-        <item name="colorSecondaryVariant">@color/colorSecondaryVariant_loyalty</item>
-        <item name="colorOnSecondary">@color/colorOnSecondary_loyalty</item>
+        <item name="colorSecondary">@color/secondary_loyalty</item>
+        <item name="colorSecondaryVariant">@color/secondary_700_loyalty</item>
+        <item name="colorOnSecondary">@color/secondary_100_loyalty</item>
 
         <!-- Status bar color. -->
-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
 
-        <item name="primaryTextColor">@color/colorSecondaryVariant_loyalty</item>
-        <!-- Customize your theme here. -->
+        <item name="primary">@color/primary_loyalty</item>
+        <item name="primary_100">@color/primary_100_loyalty</item>
+        <item name="primary_300">@color/primary_300_loyalty</item>
+        <item name="primary_700">@color/primary_700_loyalty</item>
+        <item name="primary_900">@color/primary_900_loyalty</item>
+
+        <item name="secondary">@color/secondary_loyalty</item>
+        <item name="secondary_100">@color/secondary_100_loyalty</item>
+        <item name="secondary_300">@color/secondary_300_loyalty</item>
+        <item name="secondary_700">@color/secondary_700_loyalty</item>
+        <item name="secondary_900">@color/secondary_900_loyalty</item>
+
+        <item name="neutral_100">@color/neutral_100_loyalty</item>
+        <item name="neutral_300">@color/neutral_300_loyalty</item>
+        <item name="neutral_500">@color/neutral_500_loyalty</item>
+        <item name="neutral_700">@color/neutral_700_loyalty</item>
+        <item name="neutral_900">@color/neutral_900_loyalty</item>
+
+        <item name="positive_300">@color/positive_300_loyalty</item>
+        <item name="warning_300">@color/warning_300_loyalty</item>
+        <item name="warning_700">@color/warning_700_loyalty</item>
+        <item name="negative_300">@color/negative_300_loyalty</item>
+        <item name="negative_700">@color/negative_700_loyalty</item>
+
+        <item name="support_01">@color/support_01_loyalty</item>
+        <item name="support_02">@color/support_02_loyalty</item>
+        <item name="support_03">@color/support_03_loyalty</item>
     </style>
 </resources>

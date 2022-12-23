@@ -3,19 +3,44 @@
     <style name="Theme.AndroidMultThemeXML" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
 
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
-        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_700</item>
+        <item name="colorOnPrimary">@color/primary_100</item>
 
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/colorSecondary</item>
-        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
-        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary_700</item>
+        <item name="colorOnSecondary">@color/secondary_100</item>
 
         <!-- Status bar color. -->
-        <item name="android:statusBarColor">?attr/colorOnPrimary</item>
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
 
-        <item name="primaryTextColor">@color/colorPrimary</item>
-        <!-- Customize your theme here. -->
+        <item name="primary">@color/primary</item>
+        <item name="primary_100">@color/primary_100</item>
+        <item name="primary_300">@color/primary_300</item>
+        <item name="primary_700">@color/primary_700</item>
+        <item name="primary_900">@color/primary_900</item>
+
+        <item name="secondary">@color/secondary</item>
+        <item name="secondary_100">@color/secondary_100</item>
+        <item name="secondary_300">@color/secondary_300</item>
+        <item name="secondary_700">@color/secondary_700</item>
+        <item name="secondary_900">@color/secondary_900</item>
+
+        <item name="neutral_100">@color/neutral_100</item>
+        <item name="neutral_300">@color/neutral_300</item>
+        <item name="neutral_500">@color/neutral_500</item>
+        <item name="neutral_700">@color/neutral_700</item>
+        <item name="neutral_900">@color/neutral_900</item>
+
+        <item name="positive_300">@color/positive_300</item>
+        <item name="warning_300">@color/warning_300</item>
+        <item name="warning_700">@color/warning_700</item>
+        <item name="negative_300">@color/negative_300</item>
+        <item name="negative_700">@color/negative_700</item>
+
+        <item name="support_01">@color/support_01</item>
+        <item name="support_02">@color/support_02</item>
+        <item name="support_03">@color/support_03</item>
     </style>
 </resources>
